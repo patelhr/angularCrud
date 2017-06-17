@@ -1,0 +1,10 @@
+D:\AngularCrudEmployee\AngularCrudEmployee\bin\Debug\netcoreapp1.1\AngularCrudEmployee.deps.json
+D:\AngularCrudEmployee\AngularCrudEmployee\bin\Debug\netcoreapp1.1\AngularCrudEmployee.runtimeconfig.json
+D:\AngularCrudEmployee\AngularCrudEmployee\bin\Debug\netcoreapp1.1\AngularCrudEmployee.runtimeconfig.dev.json
+D:\AngularCrudEmployee\AngularCrudEmployee\bin\Debug\netcoreapp1.1\AngularCrudEmployee.dll
+D:\AngularCrudEmployee\AngularCrudEmployee\bin\Debug\netcoreapp1.1\AngularCrudEmployee.pdb
+D:\AngularCrudEmployee\AngularCrudEmployee\obj\Debug\netcoreapp1.1\AngularCrudEmployee.csprojResolveAssemblyReference.cache
+D:\AngularCrudEmployee\AngularCrudEmployee\obj\Debug\netcoreapp1.1\UserSecretsAssemblyInfo.cs
+D:\AngularCrudEmployee\AngularCrudEmployee\obj\Debug\netcoreapp1.1\AngularCrudEmployee.AssemblyInfo.cs
+D:\AngularCrudEmployee\AngularCrudEmployee\obj\Debug\netcoreapp1.1\AngularCrudEmployee.dll
+D:\AngularCrudEmployee\AngularCrudEmployee\obj\Debug\netcoreapp1.1\AngularCrudEmployee.pdb

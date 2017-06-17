@@ -1,0 +1,31 @@
+﻿<div>
+  <table>
+    <tr>
+      <td>
+        <button type="button" (click)="add()">Add Employee</button>
+      </td>
+    </tr>
+    <tr>
+      <td>Id</td>
+      <td>Name</td>
+      <td>Department</td>
+    </tr>
+    <tr *ngFor="let emp of empList">
+      <td>
+        {{emp.id}}
+      </td>
+      <td>
+        {{emp.name}}
+      </td>
+      <td>
+        {{emp.department}}
+      </td>
+      <td>
+        <a routerLink="edit/{{emp.id}}">Edit</a>
+      </td>
+      <td>
+        <a routerLink="delete/{{emp.id}}">delete</a>
+      </td>
+    </tr>
+  </table>
+</div>

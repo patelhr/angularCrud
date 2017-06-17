@@ -1,0 +1,7 @@
+﻿<div>
+  <label>Name</label>
+  <input required type="text" [(ngModel)]="empObject.name" placeholder={{empObject.name}} />
+  <label>Department</label>
+  <input required type="text" [(ngModel)]="empObject.department"  placeholder={{empObject.department}} />
+  <button type="submit" (click)="UpdateEmployee()">submit</button>
+</div>

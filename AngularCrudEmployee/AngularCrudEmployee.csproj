@@ -1,0 +1,64 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <PackageTargetFallback>$(PackageTargetFallback);portable-net45+win8+wp8+wpa81;</PackageTargetFallback>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <UserSecretsId>aspnet-AngularCrudEmployee-fbfdeeb5-ac6f-4863-9706-1f1b4dd98776</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="wwwroot\app\Add\**" />
+    <Compile Remove="wwwroot\app\Delete\**" />
+    <Compile Remove="wwwroot\app\list\**" />
+    <Compile Remove="wwwroot\app\Update\**" />
+    <Content Remove="wwwroot\app\Add\**" />
+    <Content Remove="wwwroot\app\Delete\**" />
+    <Content Remove="wwwroot\app\list\**" />
+    <Content Remove="wwwroot\app\Update\**" />
+    <EmbeddedResource Remove="wwwroot\app\Add\**" />
+    <EmbeddedResource Remove="wwwroot\app\Delete\**" />
+    <EmbeddedResource Remove="wwwroot\app\list\**" />
+    <EmbeddedResource Remove="wwwroot\app\Update\**" />
+    <None Remove="wwwroot\app\Add\**" />
+    <None Remove="wwwroot\app\Delete\**" />
+    <None Remove="wwwroot\app\list\**" />
+    <None Remove="wwwroot\app\Update\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="wwwroot\app\app.routing.ts" />
+    <Content Include="wwwroot\app\Employee\Add\add.model.ts" />
+    <Content Include="wwwroot\app\Employee\core\http.service.ts" />
+    <Content Include="wwwroot\app\Employee\employee.module.ts" />
+    <Content Include="wwwroot\app\Employee\employee.routing.ts" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore" Version="1.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.Cookies" Version="1.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="1.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="1.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="1.1.2" />
+    <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="1.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="1.1.1" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="1.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer.Design" Version="1.1.1" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="1.1.0" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="1.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="1.1.1" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="1.1.0" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.BrowserLink" Version="1.1.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.EntityFrameworkCore.Tools.DotNet" Version="1.0.0" />
+    <DotNetCliToolReference Include="Microsoft.Extensions.SecretManager.Tools" Version="1.0.0" />
+    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="1.0.0" />
+  </ItemGroup>
+
+</Project>

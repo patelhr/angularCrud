@@ -1,13 +1,11 @@
 version: 2
 jobs:
   build:
-    docker:
-      - image: debian:stretch
     steps:
       - checkout
       - run:
           name: build
-          command: ng build
+          command: ls
       - run:
           name: Print the Current Time
           command: date
